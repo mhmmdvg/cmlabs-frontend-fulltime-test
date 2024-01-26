@@ -2,9 +2,31 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+This is for  Pre-Test, Im using NextJS Typescript
 
-```bash
+## How to Run this APP in Local
+
+First you must clone my project
+
+```
+[git clone https://github.com/mhmmdvg/cmlabs-frontend-fulltime-test.git]
+```
+
+Open the project
+
+```
+cmlabs-frontend-fulltime-test
+```
+
+Install node_modules
+
+```
+npm install or yarn
+```
+
+Run the project
+
+```
 npm run dev
 # or
 yarn dev
@@ -13,6 +35,7 @@ pnpm dev
 # or
 bun dev
 ```
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
