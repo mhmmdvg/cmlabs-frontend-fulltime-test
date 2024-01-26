@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 'use client';
 import Loading from '@/components/atoms/Loading';
 import Pagination from '@/components/molecules/Pagination';
@@ -38,7 +39,7 @@ export default function Home() {
         return item.strIngredient.toLowerCase().includes(value.toLowerCase());
       })
     );
-  }, [currentPosts, value]);
+  }, [value]);
 
   return (
     <HomeTemplate>
@@ -53,7 +54,7 @@ export default function Home() {
       ) : (
         <>
           <div className="p-10 grid grid-cols-4 gap-4 place-items-center">
-            {searchData === undefined
+            {value === ''
               ? currentPosts?.map((item) => (
                   <Card key={item.idIngredient} title={item.strIngredient} />
                 ))
