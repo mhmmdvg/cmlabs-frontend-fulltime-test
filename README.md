@@ -3,10 +3,7 @@
 This is for  Pre-Test, Im using NextJS Typescript
 
 In Vercel you can click this link
-
-```
 [https://cmlabs-frontend-fulltime-test.vercel.app](https://cmlabs-frontend-fulltime-test.vercel.app)
-```
 
 ## How to Run this APP in Local
 
