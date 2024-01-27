@@ -28,7 +28,7 @@ export default function MealDetails({ params }: IProps) {
       {data ? (
         <div className="flex flex-col space-y-5">
           <h3 className="text-sm font-bold">{data?.strCategory}</h3>
-          <div className="flex flex-row h-full space-x-5">
+          <div className="flex flex-row h-full space-x-8">
             <Image
               className="rounded-xl h-96"
               src={data?.strMealThumb}
