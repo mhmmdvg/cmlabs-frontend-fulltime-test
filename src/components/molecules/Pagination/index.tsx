@@ -28,9 +28,9 @@ export default function Pagination({
             onClick={() => paginate(num)}
             className={`px-4 py-2 border rounded-md ${
               currentPage === num
-                ? 'bg-blue-500 border-blue-500 text-white'
+                ? 'bg-red-400 border-red-400 text-white'
                 : 'bg-white border-slate-400'
-            } hover:cursor-pointer hover:text-white hover:bg-blue-500 hover:border-blue-500 transition-all`}
+            } hover:cursor-pointer hover:text-white hover:bg-red-400 hover:border-red-400 transition-all`}
           >
             {num}
           </li>

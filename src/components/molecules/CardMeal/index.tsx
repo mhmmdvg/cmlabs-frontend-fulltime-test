@@ -27,8 +27,8 @@ export default function CardMeal({
         backgroundImage: `url('${thumbnail}')`,
       }}
     >
-      <div className="w-full h-full rounded-xl bg-black/40 flex justify-center items-center">
-        <h1 className="font-bold text-white text-sm text-center">{title}</h1>
+      <div className="w-full h-full rounded-xl text-white bg-black/50 flex justify-center items-center hover:bg-black/0  transition-all">
+        <h1 className="font-bold text-sm text-center">{title}</h1>
       </div>
     </Link>
   );

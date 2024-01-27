@@ -21,7 +21,7 @@ export default function Navbar() {
   const pathNow = usePathname().split('/')[1];
 
   return (
-    <header className="fixed w-full bg-white drop-shadow-sm px-8 py-4">
+    <header className="fixed w-full bg-white drop-shadow-sm px-8 py-4 z-50">
       <nav className="flex flex-row justify-between items-center">
         <Link href={'/'} className="font-bold text-slate-900">
           mealapp
