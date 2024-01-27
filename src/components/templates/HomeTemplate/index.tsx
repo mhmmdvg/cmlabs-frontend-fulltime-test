@@ -7,7 +7,7 @@ type IProps = {
 
 export default function HomeTemplate({ children }: IProps) {
   return (
-    <main className="flex min-h-screen flex-col items-center pt-8 pb-10">
+    <main className="flex min-h-screen flex-col items-center md:pt-8 pb-10">
       {children}
     </main>
   );

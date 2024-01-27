@@ -28,9 +28,9 @@ export default function MealDetails({ params }: IProps) {
       {data ? (
         <div className="flex flex-col space-y-5">
           <h3 className="text-sm font-bold">{data?.strCategory}</h3>
-          <div className="flex flex-row h-full space-x-8">
+          <div className="flex flex-col space-y-5 md:space-y-0 md:flex-row h-full md:space-x-8">
             <Image
-              className="rounded-xl h-96"
+              className="rounded-xl h-72 md:h-96"
               src={data?.strMealThumb}
               unoptimized
               width={500}
@@ -38,12 +38,12 @@ export default function MealDetails({ params }: IProps) {
               alt="thumbnail"
             />
             <article className="w-full flex flex-col space-y-4">
-              <h1 className="text-4xl">Instructions</h1>
-              <p className="text-pretty text-justify">
+              <h1 className="text-2xl sm:text-4xl">Instructions</h1>
+              <p className="text-pretty text-justify text-xs sm:text-base">
                 {data?.strInstructions}
               </p>
-              <h2 className="text-2xl">Recipes</h2>
-              <ul className="list-disc">
+              <h2 className="text-lg sm:text-2xl">Recipes</h2>
+              <ul className="list-disc text-xs sm:text-base">
                 <li>
                   {data?.strMeasure1} {data?.strIngredient1}
                 </li>
@@ -63,7 +63,7 @@ export default function MealDetails({ params }: IProps) {
             </article>
           </div>
           <div className="w-full flex flex-col space-y-4">
-            <h2 className="text-2xl">Tutorials</h2>
+            <h2 className="text-lg sm:text-2xl">Tutorials</h2>
             <iframe
               width="560"
               height="315"

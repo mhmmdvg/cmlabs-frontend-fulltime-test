@@ -26,7 +26,7 @@ export default function Pagination({
           <li
             key={num}
             onClick={() => paginate(num)}
-            className={`px-4 py-2 border rounded-md ${
+            className={`px-2 py-1 text-xs md:text-base md:px-4 md:py-2 border rounded-md ${
               currentPage === num
                 ? 'bg-red-400 border-red-400 text-white'
                 : 'bg-white border-slate-400'

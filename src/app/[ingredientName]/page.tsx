@@ -33,7 +33,7 @@ export default function IngredientDetails({ params }: IProps) {
           searchHandle(e.target.value)
         }
       />
-      <div className="w-full grid grid-cols-4 gap-3 place-items-center">
+      <div className="w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 place-items-center">
         {data ? (
           searchData ? (
             searchData?.map((item) => (

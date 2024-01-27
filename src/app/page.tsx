@@ -53,7 +53,7 @@ export default function Home() {
         <Loading />
       ) : (
         <>
-          <div className="p-10 grid grid-cols-4 gap-4 place-items-center">
+          <div className="p-10 grid grid-cols-3 md:grid-cols-4 gap-4 place-items-center">
             {value === ''
               ? currentPosts?.map((item) => (
                   <Card key={item.idIngredient} title={item.strIngredient} />

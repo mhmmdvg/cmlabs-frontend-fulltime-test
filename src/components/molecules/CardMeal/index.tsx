@@ -22,7 +22,7 @@ export default function CardMeal({
           name: title,
         },
       }}
-      className="w-52 h-64 flex rounded-xl hover:cursor-pointer bg-cover bg-blend-darken"
+      className="w-32 h-40 sm:w-40 sm:h-52 lg:w-44 lg:h-56 xl:w-52 xl:h-64 flex rounded-xl hover:cursor-pointer bg-cover bg-blend-darken"
       style={{
         backgroundImage: `url('${thumbnail}')`,
       }}
